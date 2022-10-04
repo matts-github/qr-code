@@ -1,0 +1,44 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+/* Use px for the width here as this will keep the thing in the middle of the page as a set width when scorlling as opposed to taking up a percentage of the screen */
+.outer-wrapper {
+  width: 354px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  margin-top: 110px;
+  padding-top: 65px;
+  padding-bottom: 33px;
+  border-radius: 1em;
+}
+
+h2 {
+  text-align: center;
+  display: flex;
+  margin-left: 24px;
+  margin-right: 30px;
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  text-align: center;
+  display: flex;
+  margin-left: 39px;
+  margin-right: 54px;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(220, 15%, 55%);
+}
+
+img {
+  width: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 11px;
+  border-radius: 1em;
+}
